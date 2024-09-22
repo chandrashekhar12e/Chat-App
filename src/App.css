@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+
+  background-color: #dddedd;
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.AppDark{
+  background-color: #748591;
+}

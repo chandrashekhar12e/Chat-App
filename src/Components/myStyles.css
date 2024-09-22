@@ -1,0 +1,423 @@
+.mainDark {
+  background-color: #536978 !important;
+}
+
+.dark {
+  background-color: #2d3941 !important;
+  color: whitesmoke !important;
+}
+
+.conIconDark {
+  background-color: rgb(199, 199, 199) !important;
+  color: #2d3941 !important;
+}
+
+.conTitleDark {
+  color: whitesmoke !important;
+}
+
+.conDark:hover {
+  background-color: #536978 !important;
+}
+
+.otherTextContentDark {
+  background-color: rgb(202, 199, 199) !important;
+  color: #2d3941 !important;
+  font-weight: 500;
+}
+
+.messageBoxDark {
+  color: #2d3941 !important;
+}
+
+.mainContainer {
+  background-color: aliceblue;
+  height: 90vh;
+  width: 90vw;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sidebarContainer {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+}
+
+.sb-header {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 5px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.sb-search {
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.search-box {
+  width: 90%;
+  outline-width: 0;
+  border: none;
+  border-radius: 15px;
+
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.sb-conversations {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  overflow: scroll;
+}
+
+.conversations{
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 10px;
+  flex: 1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  overflow: scroll;
+}
+
+.conversationContainer {
+  display: grid;
+  border-bottom: #a8abad solid 1px;
+  grid-template-columns: 32px auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 10px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+
+  transition-duration: 0.5s;
+}
+
+.convo{
+  display: grid;
+  grid-template-columns: 32px auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 10px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+  transition-duration: 0.5s;
+}
+.conversationContainer:hover {
+  background-color: #d9d9d9;
+}
+
+.conversationContainer:active {
+  background-color: white;
+}
+
+.conIcon {
+  grid-area: 1/1/3/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+  height: 32px;
+  width: 32px;
+  padding: 2px;
+  border-radius: 50%;
+  justify-self: center;
+  align-self: center;
+  background-color: #cdcbcbdc;
+}
+
+.conTitle {
+  grid-area: 1/2/2/4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.conTimeStamp {
+  justify-self: flex-end;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.conlastMessage {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 0.75rem;
+}
+
+.chatareaContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+}
+
+.chatAreaHeader {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.messagesContainer {
+  background-color: white;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 15px;
+  flex: 1;
+  overflow: scroll;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.textInputArea {
+  background-color: white;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.otherTextContent {
+  background-color: #d9d9d9;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  width: fit-content;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.selfMessageContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.messageBox {
+  display: flex;
+  flex-direction: column;
+  background-color: #63d7b0;
+  width: fit-content;
+  padding: 10px 10px;
+  margin: 5px;
+  border-radius: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.selfTimeStamp {
+  align-self: flex-end;
+  font-size: 0.75rem;
+  font-weight: lighter;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcomeLogo {
+  height: 20vw;
+}
+.welcomeContainer {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: rgba(0, 0, 0, 0.54);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 5px solid #63d7b0;
+  border-radius: 20px;
+}
+
+.createGroups-container {
+  flex: 0.7;
+  align-self: center;
+  padding: 20px 10px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginContainer {
+  height: 90vh;
+  width: 90vw;
+  background-color: #f4f5f8;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.imageContainer {
+  flex: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginDetailContainer {
+  flex: 0.7;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #63d7b0;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginText {
+  font-size: 2vw;
+  padding-bottom: 20px;
+}
+
+.list-container {
+  flex:0.7;
+  display: flex;
+  flex-direction: column;
+}
+
+.ug-header {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 5px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.ug-title {
+  margin-left: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.54);
+}
+.ug-list {
+  flex: 1;
+  overflow: scroll;
+  scrollbar-width: none;
+  /* padding: 10px; */
+}
+
+.ug-list::-webkit-scrollbar {
+  display: none;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 15px;
+  padding: 10px 5px;
+  margin: 10px;
+  transition-duration: 0.5s;
+  gap: 1.4rem;
+}
+
+.list-item:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.list-item:active {
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width:40em){
+    .mainContainer{
+        width: 100vw;
+        height: 100vh;
+    }
+    .sb-search{
+        display: none;
+    }
+    .sb-conversations{
+        display: none;
+    }
+    .sb-header{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        flex: 1;
+    }
+
+    .sb-header div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.7rem;
+        align-items: center;
+
+    }
+    .css-i4bv87-MuiSvgIcon-root{
+        font-size: 2.3rem!important;
+    }
+
+    .sidebarContainer{
+        flex: 0;   
+    }
+
+    .chatareaContainer{
+        flex: 1;
+    }
+
+    .list-container{
+        flex: 1;
+    }
+
+    .createGroupsContainer{
+        flex: 1;
+    }
+
+    .show{
+      display: block;
+    }
+
+}
